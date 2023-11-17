@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- finish web-service">
-      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/Modsen Library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/web-service/library_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen Library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen Library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/LibraryAplications.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/LibraryAplications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/BookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/BookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/PutBookInTheStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/PutBookInTheStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/response/BookLogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookLogResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/response/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/domain/response/GetFreeBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/GetFreeBookResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/endpoint/LibraryEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/endpoint/LibraryEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/kafka/KafkaBookIdAdditionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/kafka/KafkaBookIdAdditionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/kafka/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/kafka/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/kafka/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/kafka/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/repository/BooksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/repository/BooksRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/services/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/hibernate.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- did modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,10 +49,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/library-serviice",
+    "last_opened_file_path": "C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/lib-web-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -162,7 +128,7 @@
       <workItem from="1699088748550" duration="4655000" />
       <workItem from="1699264147694" duration="5319000" />
       <workItem from="1700161746441" duration="10869000" />
-      <workItem from="1700252170828" duration="1949000" />
+      <workItem from="1700252170828" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -178,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700251201519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- did modules">
+      <created>1700254206450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700254206450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +184,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services" />
     <MESSAGE value="- finish web-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="- finish web-service" />
+    <MESSAGE value="- did modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="- did modules" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
