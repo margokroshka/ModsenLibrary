@@ -8,5 +8,16 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/db_library</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.xml/Hibernate" uuid="5b05cbd4-78c9-462e-bded-57eb82392de5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/NT/OneDrive/Desktop/Modsen Library/src/main/resources/hibernate.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/db_library</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

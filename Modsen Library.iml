@@ -3,7 +3,9 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="hibernate.xml" value="5b05cbd4-78c9-462e-bded-57eb82392de5" />
+        </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.xml" />
       </configuration>
@@ -21,7 +23,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -109,10 +113,30 @@
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-observation:1.10.4" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-commons:1.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.0.6" level="project" />
-    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:3.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.luben:zstd-jni:1.5.5-1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.lz4:lz4-java:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.xerial.snappy:snappy-java:1.1.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: io.github.fuquanming:fqm-mq-kafka:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: io.github.fuquanming:fqm-mq-core:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: io.github.fuquanming:fqm-common-core:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:31.1-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.kafka:spring-kafka:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:6.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.retry:spring-retry:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.postgresql:postgresql:42.5.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:3.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:3.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:3.0.4" level="project" />
