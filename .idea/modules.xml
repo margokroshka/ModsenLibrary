@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Modsen Library.iml" filepath="$PROJECT_DIR$/Modsen Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" filepath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" filepath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" />
     </modules>
   </component>
 </project>

@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Modsen-main/web-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" />
+        <option value="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" />
       </list>
     </option>
   </component>
