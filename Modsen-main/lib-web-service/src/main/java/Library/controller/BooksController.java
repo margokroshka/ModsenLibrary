@@ -1,7 +1,7 @@
 package Library.controller;
 
-import Library.domain.PutBookInTheStorage;
 import Library.domain.BookRequest;
+import Library.domain.PutBookInTheStorage;
 import Library.domain.response.BookLogResponse;
 import Library.domain.response.BookResponse;
 import Library.services.LibraryService;
@@ -10,7 +10,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import javassist.NotFoundException;
+import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -44,6 +44,7 @@ public class BooksController {
         return ResponseEntity.ok().body(libraryService.getAllBooks());
     }
 
+
     @Operation(
             summary = "Get book by ID",
             responses = {
@@ -67,6 +68,19 @@ public class BooksController {
     @GetMapping("/getISBN/{isbn}")
     public ResponseEntity<List<BookResponse>> getBookByISBN(@PathVariable String ISBN) {
         return ResponseEntity.ok().body(libraryService.getAllBooksByISBN(ISBN));
+    }
+
+
+    @Operation(
+            summary = "Get free books",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "List of books",
+                            content = @Content(schema = @Schema(implementation = BookResponse.class)))
+            }
+    )
+    @GetMapping("/getFreeBooks")
+    public ResponseEntity<List<BookResponse>> getFreeBooks() {
+        return ResponseEntity.ok().body(libraryService.getFreeBooks());
     }
 
 
@@ -121,7 +135,7 @@ public class BooksController {
     )
     @DeleteMapping("/delete/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public void  deleteBook(@PathVariable Integer id) throws NotFoundException {
+    public void  deleteBook(@PathVariable Integer id)  throws NotFoundException {
        libraryService.deleteById(id);
     }
 }

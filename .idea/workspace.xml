@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- did modules">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/GetFreeBookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/LibraryServiceAplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/controller/LibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/BookLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/request/PutBookInTheStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/BookLogResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/GetFreeBookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/KafkaBookIdAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/repository/BookLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorkerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +43,9 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,35 +70,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/lib-web-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "4d9944af6784be1b7222ad912327eb5c"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/lib-web-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4d9944af6784be1b7222ad912327eb5c&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql",
-      "postgresql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice" />
@@ -82,11 +107,11 @@
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\src\main\java\Library\response" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice\src\main\java" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main1" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\web-service" />
-      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -114,6 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryServiceAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="library_app (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="LibraryService.domain.LibraryServiceAplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,7 +167,9 @@
       <workItem from="1699264147694" duration="5319000" />
       <workItem from="1700161746441" duration="10869000" />
       <workItem from="1700252170828" duration="2035000" />
-      <workItem from="1700254251914" duration="697000" />
+      <workItem from="1700254251914" duration="4298000" />
+      <workItem from="1700580910969" duration="5823000" />
+      <workItem from="1700587790900" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -165,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700254430789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- did modules">
+      <created>1700255114329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700255114329</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,7 +4,7 @@ import Library.domain.PutBookInTheStorage;
 import Library.domain.BookRequest;
 import Library.domain.response.BookLogResponse;
 import Library.domain.response.BookResponse;
-import javassist.NotFoundException;
+import jakarta.ws.rs.NotFoundException;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
@@ -20,6 +20,7 @@ public interface LibraryService {
 
     void deleteById(Integer id) throws NotFoundException;
     List<BookResponse> getAllBooksByISBN(String ISBN);
+    List<BookResponse>  getFreeBooks();
 
     ResponseEntity<BookLogResponse> changeBookStatus(Integer id, PutBookInTheStorage putBookInTheStorageDto);
 

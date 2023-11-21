@@ -1,50 +1,43 @@
-package Library.domain;
+package LibraryService.domain.domain;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDate;
 import java.util.Objects;
 
-
-@Data
 @Entity
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Books {
+@Getter
+@Setter
+@Builder
+public class BookLog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
-    private String ISBN;
-
-    private String name;
-
-    private String genre;
-    @Column(length = 1024)
-    private String description;
-
-    private String Author;
+    private Integer bookId;
+    private LocalDate startTime;
+    private LocalDate endTime;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Books book = (Books) o;
-        return Objects.equals(id, book.id);
+        BookLog bookLog = (BookLog) o;
+        return Objects.equals(id, bookLog.id);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id);
     }
-
-
 }

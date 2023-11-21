@@ -1,14 +1,15 @@
 package Library.services;
 
+import Library.domain.BookRequest;
 import Library.domain.Books;
 import Library.domain.PutBookInTheStorage;
-import Library.endpoint.LibraryEndpoint;
-import Library.domain.BookRequest;
-import Library.kafka.Producer;
-import Library.repository.BooksRepository;
 import Library.domain.response.BookLogResponse;
 import Library.domain.response.BookResponse;
-import javassist.NotFoundException;
+import Library.domain.response.GetFreeBookResponse;
+import Library.endpoint.LibraryEndpoint;
+import Library.kafka.Producer;
+import Library.repository.BooksRepository;
+import jakarta.ws.rs.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
@@ -17,11 +18,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
 public class BookService implements LibraryService {
-    private final String BookWthIdNotFoundException = "Book with id %s not found!";
     private final BooksRepository booksRepository;
     private final Producer producer;
     private final ModelMapper modelMapper;
@@ -58,7 +59,7 @@ public class BookService implements LibraryService {
                     return modelMapper.map(booksRepository.save(mapBook), BookResponse.class);
                 })
                 .orElseThrow(() ->
-                        new NotFoundException(String.format("BOOK_WITH_ID_NOT_FOUND_EXCEPTION", id))
+                        new NotFoundException(String.format("Book with ID not Found ", id))
                 );
     }
 
@@ -71,6 +72,19 @@ public class BookService implements LibraryService {
     public List<BookResponse> getAllBooksByISBN(String isbn) {
         return booksRepository.findBookByISBN(isbn)
                 .stream()
+                .map(book -> modelMapper.map(book, BookResponse.class))
+                .toList();
+    }
+
+    @Override
+    public List<BookResponse> getFreeBooks() {
+        List<Long> longIdsList = Objects.requireNonNull(libraryEndpoint.getIdsOfBusyBooks().getBody())
+                .stream()
+                .map(GetFreeBookResponse::bookId)
+                .toList();
+        return booksRepository.findAll()
+                .stream()
+                .filter(book -> !longIdsList.contains(book.getId()))
                 .map(book -> modelMapper.map(book, BookResponse.class))
                 .toList();
     }
