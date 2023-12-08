@@ -4,31 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- did modules">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/GetFreeBookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/LibraryServiceAplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/controller/LibraryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/BookLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/request/PutBookInTheStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/BookLogResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/GetFreeBookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/KafkaBookIdAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/repository/BookLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorkerService.java" afterDir="false" />
+    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- Library Service complete">
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-amqp/5.2.3.RELEASE/spring-integration-amqp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-core/5.2.3.RELEASE/spring-integration-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-event/5.2.3.RELEASE/spring-integration-event-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-feed/5.2.3.RELEASE/spring-integration-feed-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-file/5.2.3.RELEASE/spring-integration-file-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-ftp/5.2.3.RELEASE/spring-integration-ftp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-gemfire/5.2.3.RELEASE/spring-integration-gemfire-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-groovy/5.2.3.RELEASE/spring-integration-groovy-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-http/5.2.3.RELEASE/spring-integration-http-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-ip/5.2.3.RELEASE/spring-integration-ip-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-jdbc/5.2.3.RELEASE/spring-integration-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-jms/5.2.3.RELEASE/spring-integration-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-jmx/5.2.3.RELEASE/spring-integration-jmx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-jpa/5.2.3.RELEASE/spring-integration-jpa-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-mail/5.2.3.RELEASE/spring-integration-mail-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-mongodb/5.2.3.RELEASE/spring-integration-mongodb-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-mqtt/5.2.3.RELEASE/spring-integration-mqtt-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-redis/5.2.3.RELEASE/spring-integration-redis-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-rmi/5.2.3.RELEASE/spring-integration-rmi-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-scripting/5.2.3.RELEASE/spring-integration-scripting-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-security/5.2.3.RELEASE/spring-integration-security-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-sftp/5.2.3.RELEASE/spring-integration-sftp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-stream/5.2.3.RELEASE/spring-integration-stream-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-syslog/5.2.3.RELEASE/spring-integration-syslog-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-test/5.2.3.RELEASE/spring-integration-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-twitter/5.0.9.RELEASE/spring-integration-twitter-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-ws/5.2.3.RELEASE/spring-integration-ws-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-xml/5.2.3.RELEASE/spring-integration-xml-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/lib/spring-integration-xmpp/5.2.3.RELEASE/spring-integration-xmpp-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/CustomUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/UserCredential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/repository/UserCredentialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/util/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/LibraryServiceAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/LibraryServiceAplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/BookLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/BookLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/request/PutBookInTheStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/request/PutBookInTheStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/BookLogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/response/BookLogResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/domain/response/GetFreeBookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/response/GetFreeBookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/kafka/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/kafka/KafkaBookIdAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/kafka/KafkaBookIdAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/repository/BookLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/repository/BookLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/service/BookWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/domain/service/BookWorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/service/BookWorkerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +83,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,48 +112,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/lib-web-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4d9944af6784be1b7222ad912327eb5c&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/gateway-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "8140e90dd6307d1992352f322c15272b"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;postgresql&quot;
+    "DatabaseDriversLRU": [
+      "mysql",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AunthenticationService" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\aunthentication-service\src\main\resources" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\src\main\resources" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\src\main\java\Library\response" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice\src\main\java" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main" />
+      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice\src\main\resources" />
+      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice\src\main\java" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main1" />
       <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\library-serviice" />
-      <recent name="C:\Users\NT\OneDrive\Desktop\Modsen Library\Modsen-main\web-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -135,6 +185,13 @@
     <configuration name="LibraryAplications" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Modsen Library" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="Library.LibraryAplications" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryServiceAplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="library_app (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="LibraryService.LibraryServiceAplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +227,11 @@
       <workItem from="1700254251914" duration="4298000" />
       <workItem from="1700580910969" duration="5823000" />
       <workItem from="1700587790900" duration="2510000" />
+      <workItem from="1700596721315" duration="176000" />
+      <workItem from="1700662675056" duration="474000" />
+      <workItem from="1700895978281" duration="69000" />
+      <workItem from="1700943612857" duration="4536000" />
+      <workItem from="1701368210436" duration="13905000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -206,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700255114329</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Library Service complete">
+      <created>1700596807189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700596807189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +309,8 @@
     <MESSAGE value="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services" />
     <MESSAGE value="- finish web-service" />
     <MESSAGE value="- did modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="- did modules" />
+    <MESSAGE value="- Library Service complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Library Service complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

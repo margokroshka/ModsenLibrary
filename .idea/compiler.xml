@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="library_app (1)" />
         <module name="library_app" />
+        <module name="library_app (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="library_app" target="17" />
-      <module name="library_app (1)" target="17" />
+      <module name="aunthentication-service" target="17" />
       <module name="Modsen Library" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +22,7 @@
       <module name="Modsen Library" options="-parameters" />
       <module name="library_app" options="-parameters" />
       <module name="library_app (1)" options="-parameters" />
+      <module name="library_app (2)" options="-parameters" />
     </option>
   </component>
 </project>
