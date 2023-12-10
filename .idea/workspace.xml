@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- Auth-service Service complete">
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/filter/PathValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/service/JWTService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- Gateway-service Service complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +172,7 @@
       <workItem from="1700895978281" duration="69000" />
       <workItem from="1700943612857" duration="4536000" />
       <workItem from="1701368210436" duration="13905000" />
-      <workItem from="1702054354772" duration="7716000" />
+      <workItem from="1702054354772" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -234,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702055027650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- Gateway-service Service complete">
+      <created>1702239867876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702239867876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +266,8 @@
     <MESSAGE value="- did modules" />
     <MESSAGE value="- Library Service complete" />
     <MESSAGE value="- Auth-service Service complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Auth-service Service complete" />
+    <MESSAGE value="- Gateway-service Service complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Gateway-service Service complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
