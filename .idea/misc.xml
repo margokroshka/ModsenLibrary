@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" />
         <option value="$PROJECT_DIR$/aunthentication-service/pom.xml" />
         <option value="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" />
       </list>
     </option>
   </component>

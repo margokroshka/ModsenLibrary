@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Modsen-main/gateway-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java" charset="UTF-8" />
