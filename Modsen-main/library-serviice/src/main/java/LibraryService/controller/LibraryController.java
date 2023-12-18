@@ -5,7 +5,6 @@ import LibraryService.domain.response.BookLogResponse;
 import LibraryService.domain.response.GetFreeBookResponse;
 import LibraryService.service.BookWorker;
 import lombok.RequiredArgsConstructor;
-import jakarta.ws.rs.NotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,7 +27,7 @@ public class LibraryController {
     }
 
     @PutMapping("/update/{bookId}")
-    public ResponseEntity<BookLogResponse> updateBookLog(@RequestBody PutBookInTheStorage putBookInTheStorage, @PathVariable Integer id) throws NotFoundException {
-        return ResponseEntity.ok().body(bookWorker.updateBookInTheStorage(id, putBookInTheStorage));
+    public ResponseEntity<BookLogResponse> updateBookLog(@RequestBody PutBookInTheStorage putBookInTheStorage, @PathVariable Integer id) throws Exception {
+        return ResponseEntity.ok().body(bookWorker.updateBookInTheLibrary(id, putBookInTheStorage));
     }
 }

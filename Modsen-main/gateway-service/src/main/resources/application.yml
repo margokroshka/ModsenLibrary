@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: gateway-service
+
+  cloud:
+    gateway:
+      routes:
+        - id: authentication-service
+          uri: ${AUTH_SERVICE_URL:http://localhost:8400}
+          predicates:
+            - Path=/auth/**
+
+        - id: library-web-service
+          uri: ${LIBRARY_WEB_SERVICE_URL:http://localhost:8091}
+          predicates:
+            - Path=/library/**
+          filters:
+            - AuthenticationFilter
+
+secret:
+  key: 5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
+
+server:
+  port: 8762

@@ -13,7 +13,7 @@ public class Consumer {
     private final ObjectMapper objectMapper;
     private final BookWorker bookWorker;
     @SneakyThrows
-    @KafkaListener(topics = "${topic.name}", groupId = "${topic-group.name")
+    @KafkaListener(topics = "${application.yml:32}", groupId = "${spring.kafka.consumer.group-id}")
     public void consumeMessage(String message){
         KafkaBookIdAddition kafkaMailMessage =objectMapper.readValue(message, KafkaBookIdAddition.class);
         bookWorker.saveBook(kafkaMailMessage.bookId());
