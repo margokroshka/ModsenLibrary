@@ -6,7 +6,7 @@ spring:
     gateway:
       routes:
         - id: authentication-service
-          uri: ${AUTH_SERVICE_URL:http://localhost:8400}
+          uri: ${AUTH_SERVICE_URL:jdbc:postgresql://localhost:5432/db_library}
           predicates:
             - Path=/auth/**
 

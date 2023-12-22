@@ -5,52 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- Gateway-service Service complete">
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/AuthApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/AuthConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/CustomUserDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/CustomUserDetailsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/controller/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/AuthRequest$AuthRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/AuthRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/AuthResponse$AuthResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/AuthResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/RegisterRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/UserCredential$UserCredentialBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/UserCredential.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/repository/UserCredentialRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthenticationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/util/JWTService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/GatewayServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/JWTService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/config/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/filter/AuthFilter$Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/filter/AuthFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/target/classes/gateway/service/filter/PathValid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/AppConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/LibraryServiceAplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/controller/LibraryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/BookLog$BookLogBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/BookLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/request/PutBookInTheStorage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/response/BookLogResponse$BookLogResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/response/BookLogResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/response/GetFreeBookResponse$GetFreeBookResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/domain/response/GetFreeBookResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/kafka/Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/kafka/KafkaBookIdAddition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/repository/BookLogRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/service/BookWorker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/LibraryService/service/BookWorkerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/kafka/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/kafka/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/AppConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/AppConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +117,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryServiceAplication (1)">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library_app (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="AunthenticationService.AuthApplication" />
@@ -232,7 +190,7 @@
       <workItem from="1700943612857" duration="4536000" />
       <workItem from="1701368210436" duration="13905000" />
       <workItem from="1702054354772" duration="8754000" />
-      <workItem from="1702915118097" duration="14812000" />
+      <workItem from="1702915118097" duration="18145000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -304,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702921095347</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Gateway-service Service complete">
+      <created>1703218400054</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703218400054</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
