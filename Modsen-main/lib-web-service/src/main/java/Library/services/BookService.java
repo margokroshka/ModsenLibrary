@@ -10,10 +10,10 @@ import Library.endpoint.LibraryEndpoint;
 import Library.kafka.Producer;
 import Library.repository.BooksRepository;
 import jakarta.ws.rs.NotFoundException;
-import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -21,14 +21,20 @@ import java.util.List;
 import java.util.Objects;
 
 @Service
-@RequiredArgsConstructor
+
 public class BookService implements LibraryService {
     private final BooksRepository booksRepository;
     private final Producer producer;
     private final ModelMapper modelMapper;
     private final LibraryEndpoint libraryEndpoint;
     private final Logger log = LoggerFactory.getLogger(this.getClass());
-
+@Autowired
+    public BookService(BooksRepository booksRepository, Producer producer, ModelMapper modelMapper, LibraryEndpoint libraryEndpoint) {
+        this.booksRepository = booksRepository;
+        this.producer = producer;
+        this.modelMapper = modelMapper;
+        this.libraryEndpoint = libraryEndpoint;
+    }
 
     public BookResponse createBook(BookRequest bodyBook) {
         Books books = modelMapper.map(bodyBook, Books.class);
@@ -36,8 +42,9 @@ public class BookService implements LibraryService {
         producer.sendKafkaBookIdAdditionDtoToConsumer(saveBook.getId());
         return modelMapper.map(saveBook, BookResponse.class);
     }
+
     public List<BookResponse> getAllBooks() {
-        return  booksRepository.findAll()
+        return booksRepository.findAll()
                 .stream()
                 .map(book -> modelMapper.map(book, BookResponse.class))
                 .toList();
@@ -45,7 +52,7 @@ public class BookService implements LibraryService {
 
     @Override
     public BookResponse getBookById(Integer id) throws NotFoundException {
-        Books books =getBookByIdFromDB(id);
+        Books books = getBookByIdFromDB(id);
         return modelMapper.map(books, BookResponse.class);
     }
 
@@ -64,7 +71,7 @@ public class BookService implements LibraryService {
     }
 
     @Override
-    public  void deleteById(Integer id) throws NotFoundException {
+    public void deleteById(Integer id) throws NotFoundException {
         Books books = getBookByIdFromDB(id);
         booksRepository.deleteById(id);
     }
@@ -96,7 +103,7 @@ public class BookService implements LibraryService {
 
 
     private Books getBookByIdFromDB(int id) throws NotFoundException {
-       return booksRepository.findById(id).orElseThrow(() ->
+        return booksRepository.findById(id).orElseThrow(() ->
                 new NotFoundException(
                         String.format("Book wth id not found", id)
                 ));

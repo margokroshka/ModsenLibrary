@@ -6,8 +6,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor
 @Component
@@ -15,6 +15,8 @@ public class Producer {
     private final ObjectMapper objectMapper;
     private final KafkaTemplate<String, KafkaBookIdAdditionDto> kafkaBookIdAdditionDtoKafkaTemplate;
     private final Logger log = LoggerFactory.getLogger(this.getClass());
+
+
 
     @SneakyThrows
     public void sendKafkaBookIdAdditionDtoToConsumer(Integer id) {
