@@ -35,7 +35,7 @@ public class AuthenticationService implements AuthService {
                     .build();
         } else {
             throw new Exception(
-                    String.format("user not found" +
+                    String.format("user already exist " +
                             request.email())
             );
         }
@@ -51,7 +51,7 @@ public class AuthenticationService implements AuthService {
         );
         UserCredential user = userCredentialRepository.findByEmail(request.email())
                 .orElseThrow(() -> new Exception(
-                                String.format("user not found" +
+                                String.format("user not found " +
                                         request.email())
                         )
                 );

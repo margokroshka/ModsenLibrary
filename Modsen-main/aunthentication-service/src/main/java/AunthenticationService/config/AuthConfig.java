@@ -3,6 +3,7 @@ package AunthenticationService.config;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
@@ -24,10 +25,13 @@ public class AuthConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
+                .cors(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorizeHttpRequests -> authorizeHttpRequests
-                        .requestMatchers(
-                                "/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+                        .requestMatchers(HttpMethod.POST, "/auth/registration").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/auth/authenticate").permitAll()
+                        .requestMatchers("/",
+                                "/auth/registration",
                                 "/auth/authenticate",
                                 "/swagger-ui/**",
                                 "/v3/api-docs/swagger-config",
@@ -36,9 +40,11 @@ public class AuthConfig {
                         .permitAll()
                         .anyRequest()
                         .authenticated()
+
                 )
                 .build();
     }
+
 
 
     @Bean

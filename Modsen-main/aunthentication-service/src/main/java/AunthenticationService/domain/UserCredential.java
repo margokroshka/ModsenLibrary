@@ -19,7 +19,6 @@ import java.util.Objects;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-
 public class UserCredential {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
