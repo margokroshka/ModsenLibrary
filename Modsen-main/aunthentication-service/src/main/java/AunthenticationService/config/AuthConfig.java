@@ -27,7 +27,7 @@ public class AuthConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorizeHttpRequests -> authorizeHttpRequests
                         .requestMatchers(
-                                "/auth/register",
+                                "/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
                                 "/auth/authenticate",
                                 "/swagger-ui/**",
                                 "/v3/api-docs/swagger-config",

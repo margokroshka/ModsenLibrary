@@ -36,7 +36,7 @@ public class AuthController {
             @ApiResponse(responseCode = "500", description = "Server error")
     })
     @PostMapping("/registration")
-    public ResponseEntity<AuthResponse> registrationUser(@RequestBody RegisterRequest registrationUser) {
+    public ResponseEntity<AuthResponse> registrationUser(@RequestBody RegisterRequest registrationUser) throws Exception {
         return ResponseEntity
                 .ok()
                 .body(authenticationService.register(registrationUser));
@@ -56,7 +56,7 @@ public class AuthController {
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content(schema = @Schema()))
     })
     @PostMapping("/authenticate")
-    public ResponseEntity<AuthResponse> authenticate(@RequestBody AuthRequest request) {
+    public ResponseEntity<AuthResponse> authenticate(@RequestBody AuthRequest request) throws Exception {
         return ResponseEntity
                 .ok()
                 .body(authenticationService.authenticate(request));

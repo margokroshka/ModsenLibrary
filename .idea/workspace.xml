@@ -6,9 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- Gateway-service Service complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/AppConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/config/AppConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/kafka/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/kafka/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +96,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="AunthenticationService" />
@@ -117,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library_app (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="AunthenticationService.AuthApplication" />
@@ -190,7 +201,7 @@
       <workItem from="1700943612857" duration="4536000" />
       <workItem from="1701368210436" duration="13905000" />
       <workItem from="1702054354772" duration="8754000" />
-      <workItem from="1702915118097" duration="18145000" />
+      <workItem from="1702915118097" duration="24119000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -269,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703218400054</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- Gateway-service Service complete">
+      <created>1703271813148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703271813148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
