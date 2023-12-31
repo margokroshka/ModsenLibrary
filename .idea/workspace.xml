@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- secur">
-      <change afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/postman/auth-service.postman_collection" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/postman/postman-collection" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/UserCredential.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/domain/UserCredential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/service/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/AuthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/AuthConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/UserCredential.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/domain/UserCredential.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,44 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/postman",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "5936d0b529b19b6fdea52d6d9e29ec76"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/NT/OneDrive/Desktop/Modsen Library/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/postman&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5936d0b529b19b6fdea52d6d9e29ec76&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql",
-      "postgresql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -200,6 +197,7 @@
       <workItem from="1701368210436" duration="13905000" />
       <workItem from="1702054354772" duration="8754000" />
       <workItem from="1702915118097" duration="34238000" />
+      <workItem from="1704031963387" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
