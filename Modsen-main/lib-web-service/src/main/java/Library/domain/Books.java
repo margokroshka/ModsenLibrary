@@ -1,6 +1,5 @@
 package Library.domain;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,7 +27,6 @@ public class Books {
     private String name;
 
     private String genre;
-    @Column(length = 1024)
     private String description;
 
     private String Author;
