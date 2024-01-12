@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "0811271b-517f-40d7-89a8-4e98c90b70b4",
+		"_postman_id": "29e67250-2325-4559-be5f-9da06e3d4b33",
 		"name": "microservices",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "20352011",
-		"_collection_link": "https://martian-crater-525615.postman.co/workspace/Marketplace~ac1a35ee-2041-4f95-aae1-46b88c193600/collection/20352011-0811271b-517f-40d7-89a8-4e98c90b70b4?action=share&source=collection_link&creator=20352011"
+		"_exporter_id": "25675134"
 	},
 	"item": [
 		{

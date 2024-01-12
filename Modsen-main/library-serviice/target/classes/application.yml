@@ -25,8 +25,5 @@ spring:
 server:
   port: 8091
 
-  url:
-    library: ${LIBRARY_SERVICE_URL:http://localhost:8888/storage}
-
   topic:
     name: book.addition.id.notification
