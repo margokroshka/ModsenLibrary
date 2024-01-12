@@ -3,17 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-4||-9223372036854775808|c|G
-4||10|c|G
-4||10|C|G
-4||10|T|G</Grants>
-      <IntrospectionStateNumber>2109</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2235</IntrospectionStateNumber>
       <ServerVersion>15.4</ServerVersion>
-      <StartupTime>1702610102</StartupTime>
+      <StartupTime>1703692904</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -813,11 +805,11 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>2109</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2235</IntrospectionStateNumber>
       <ObjectId>16398</ObjectId>
-      <Relations>sequence|table|16402|16399|1
-sequence|table|49327|49328|1
+      <Relations>sequence|table|57547|24739|1
 sequence|table|49334|49335|1
+sequence|table|57563|57564|1
 </Relations>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4239,21 +4231,21 @@ sequence|table|49334|49335|1
     <schema id="265" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>2109</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2235</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <sequence id="266" parent="265" name="book_id_seq">
+    <sequence id="266" parent="265" name="bookLog_id_seq">
       <DataType>bigint|0s</DataType>
-      <ObjectId>16402</ObjectId>
-      <StateNumber>747</StateNumber>
+      <ObjectId>57547</ObjectId>
+      <StateNumber>2163</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="267" parent="265" name="book_log_id_seq">
+    <sequence id="267" parent="265" name="books_id_seq">
       <DataType>integer|0s</DataType>
-      <ObjectId>49327</ObjectId>
-      <StateNumber>2103</StateNumber>
+      <ObjectId>57563</ObjectId>
+      <StateNumber>2231</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="268" parent="265" name="user_credential_id_seq">
@@ -4268,71 +4260,54 @@ sequence|table|49334|49335|1
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="270" parent="265" name="book_log">
-      <ObjectId>49328</ObjectId>
-      <StateNumber>2103</StateNumber>
+    <table id="270" parent="265" name="books">
+      <ObjectId>57564</ObjectId>
+      <StateNumber>2231</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="271" parent="265" name="books">
-      <ObjectId>16399</ObjectId>
-      <StateNumber>878</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>postgres</OwnerName>
-    </table>
-    <table id="272" parent="265" name="user_credential">
+    <table id="271" parent="265" name="user_credential">
       <ObjectId>49335</ObjectId>
       <StateNumber>2104</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="273" parent="265" name="users">
+    <table id="272" parent="265" name="users">
       <ObjectId>32943</ObjectId>
       <StateNumber>917</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="274" parent="269" name="id">
+    <column id="273" parent="269" name="id">
       <DataType>bigint|0s</DataType>
+      <DefaultExpression>nextval(&apos;&quot;bookLog_id_seq&quot;&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>878</StateNumber>
+      <StateNumber>2164</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="275" parent="269" name="bookId">
+    <column id="274" parent="269" name="bookId">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>878</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="276" parent="269" name="startTime">
+    <column id="275" parent="269" name="startTime">
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>878</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="277" parent="269" name="endTime">
+    <column id="276" parent="269" name="endTime">
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>878</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <foreign-key id="278" parent="269" name="booklog_books_id_fk">
-      <ColNames>bookId</ColNames>
-      <ObjectId>24746</ObjectId>
-      <OnDelete>cascade</OnDelete>
-      <OnUpdate>cascade</OnUpdate>
-      <RefColNames>id</RefColNames>
-      <RefColPositions>1</RefColPositions>
-      <StateNumber>878</StateNumber>
-      <RefTableId>16399</RefTableId>
-      <RefTableName>books</RefTableName>
-      <RefTableKind>table</RefTableKind>
-    </foreign-key>
-    <index id="279" parent="269" name="bookLog_pkey">
+    <index id="277" parent="269" name="bookLog_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24742</ObjectId>
@@ -4341,7 +4316,7 @@ sequence|table|49334|49335|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="280" parent="269" name="bookLog_bookId_key">
+    <index id="278" parent="269" name="bookLog_bookId_key">
       <ColNames>bookId</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24744</ObjectId>
@@ -4349,119 +4324,74 @@ sequence|table|49334|49335|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="281" parent="269" name="bookLog_pkey">
+    <key id="279" parent="269" name="bookLog_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24743</ObjectId>
       <Primary>1</Primary>
       <StateNumber>878</StateNumber>
       <UnderlyingIndexId>24742</UnderlyingIndexId>
     </key>
-    <key id="282" parent="269" name="bookLog_bookId_key">
+    <key id="280" parent="269" name="bookLog_bookId_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>24745</ObjectId>
       <StateNumber>878</StateNumber>
       <UnderlyingIndexId>24744</UnderlyingIndexId>
     </key>
-    <column id="283" parent="270" name="id">
+    <column id="281" parent="270" name="id">
       <DataType>integer|0s</DataType>
-      <DefaultExpression>nextval(&apos;book_log_id_seq&apos;::regclass)</DefaultExpression>
+      <DefaultExpression>nextval(&apos;books_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>2103</StateNumber>
+      <StateNumber>2231</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="284" parent="270" name="book_id">
-      <DataType>integer|0s</DataType>
+    <column id="282" parent="270" name="author">
+      <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
-      <StateNumber>2103</StateNumber>
+      <StateNumber>2231</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="283" parent="270" name="description">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+      <StateNumber>2231</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="284" parent="270" name="genre">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+      <StateNumber>2231</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="285" parent="270" name="isbn">
+      <DataType>integer|0s</DataType>
+      <Position>5</Position>
+      <StateNumber>2231</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="285" parent="270" name="end_time">
-      <DataType>date|0s</DataType>
-      <Position>3</Position>
-      <StateNumber>2103</StateNumber>
-      <TypeId>1082</TypeId>
+    <column id="286" parent="270" name="name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+      <StateNumber>2231</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="286" parent="270" name="start_time">
-      <DataType>date|0s</DataType>
-      <Position>4</Position>
-      <StateNumber>2103</StateNumber>
-      <TypeId>1082</TypeId>
-    </column>
-    <index id="287" parent="270" name="book_log_pkey">
+    <index id="287" parent="270" name="books_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>49332</ObjectId>
+      <ObjectId>57570</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>2103</StateNumber>
+      <StateNumber>2231</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="288" parent="270" name="book_log_pkey">
+    <key id="288" parent="270" name="books_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>49333</ObjectId>
+      <ObjectId>57571</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>2103</StateNumber>
-      <UnderlyingIndexId>49332</UnderlyingIndexId>
+      <StateNumber>2231</StateNumber>
+      <UnderlyingIndexId>57570</UnderlyingIndexId>
     </key>
     <column id="289" parent="271" name="id">
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>740</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="290" parent="271" name="isbn">
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>740</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="291" parent="271" name="Name">
-      <DataType>char|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>763</StateNumber>
-      <TypeId>1042</TypeId>
-    </column>
-    <column id="292" parent="271" name="genre">
-      <DataType>char|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StateNumber>767</StateNumber>
-      <TypeId>1042</TypeId>
-    </column>
-    <column id="293" parent="271" name="description">
-      <DataType>text|0s</DataType>
-      <Position>5</Position>
-      <StateNumber>770</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="294" parent="271" name="Author">
-      <DataType>char|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-      <StateNumber>773</StateNumber>
-      <TypeId>1042</TypeId>
-    </column>
-    <index id="295" parent="271" name="books_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16403</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>754</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="296" parent="271" name="books_pkey">
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16404</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>754</StateNumber>
-      <UnderlyingIndexId>16403</UnderlyingIndexId>
-    </key>
-    <column id="297" parent="272" name="id">
       <DataType>bigint|0s</DataType>
       <DefaultExpression>nextval(&apos;user_credential_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
@@ -4469,25 +4399,25 @@ sequence|table|49334|49335|1
       <StateNumber>2104</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="298" parent="272" name="email">
+    <column id="290" parent="271" name="email">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
       <StateNumber>2104</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="299" parent="272" name="login">
+    <column id="291" parent="271" name="login">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
       <StateNumber>2104</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="300" parent="272" name="password">
+    <column id="292" parent="271" name="password">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
       <StateNumber>2104</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="301" parent="272" name="user_credential_pkey">
+    <index id="293" parent="271" name="user_credential_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>49341</ObjectId>
@@ -4496,42 +4426,42 @@ sequence|table|49334|49335|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="302" parent="272" name="user_credential_pkey">
+    <key id="294" parent="271" name="user_credential_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>49342</ObjectId>
       <Primary>1</Primary>
       <StateNumber>2104</StateNumber>
       <UnderlyingIndexId>49341</UnderlyingIndexId>
     </key>
-    <column id="303" parent="273" name="id">
+    <column id="295" parent="272" name="id">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>914</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="304" parent="273" name="login">
+    <column id="296" parent="272" name="login">
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>922</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="305" parent="273" name="email">
+    <column id="297" parent="272" name="email">
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>916</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="306" parent="273" name="password">
+    <column id="298" parent="272" name="password">
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>917</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="307" parent="273" name="users_id_key">
+    <index id="299" parent="272" name="users_id_key">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32950</ObjectId>
@@ -4539,7 +4469,7 @@ sequence|table|49334|49335|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="308" parent="273" name="users_pkey">
+    <index id="300" parent="272" name="users_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32948</ObjectId>
@@ -4548,7 +4478,7 @@ sequence|table|49334|49335|1
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="309" parent="273" name="users_login_key">
+    <index id="301" parent="272" name="users_login_key">
       <ColNames>login</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32952</ObjectId>
@@ -4559,20 +4489,20 @@ sequence|table|49334|49335|1
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="310" parent="273" name="users_pkey">
+    <key id="302" parent="272" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32949</ObjectId>
       <Primary>1</Primary>
       <StateNumber>918</StateNumber>
       <UnderlyingIndexId>32948</UnderlyingIndexId>
     </key>
-    <key id="311" parent="273" name="users_id_key">
+    <key id="303" parent="272" name="users_id_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32951</ObjectId>
       <StateNumber>919</StateNumber>
       <UnderlyingIndexId>32950</UnderlyingIndexId>
     </key>
-    <key id="312" parent="273" name="users_login_key">
+    <key id="304" parent="272" name="users_login_key">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>32953</ObjectId>
       <StateNumber>925</StateNumber>

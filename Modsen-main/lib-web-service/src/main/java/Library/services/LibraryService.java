@@ -19,7 +19,7 @@ public interface LibraryService {
     BookResponse updateBookById(Integer id, BookRequest body) throws NotFoundException;
 
     void deleteById(Integer id) throws NotFoundException;
-    List<BookResponse> getAllBooksByISBN(String ISBN);
+    List<BookResponse> getAllBooksByISBN(Integer isbn);
     List<BookResponse>  getFreeBooks();
 
     ResponseEntity<BookLogResponse> changeBookStatus(Integer id, PutBookInTheStorage putBookInTheStorageDto);

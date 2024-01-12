@@ -12,11 +12,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 public final class BookResponse {
-    private Long id;
     private String name;
     private String genre;
     private String description;
     private String authorName;
-    private String ISBN;
+    private Integer isbn;
 
 }

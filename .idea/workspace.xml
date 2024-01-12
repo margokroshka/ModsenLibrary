@@ -4,14 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="- secur">
-      <change afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/postman/postman-collection" afterDir="false" />
+    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/src/main/java/AunthenticationService/config/AuthConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/AuthConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/config/AuthConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/target/classes/AunthenticationService/service/AuthenticationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/library_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/gateway/service/filter/PathValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/gateway-service/src/main/java/gateway/service/filter/PathValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/BookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/BookRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/GetFreeBookResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/PutBookInTheStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/PutBookInTheStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookLogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookLogResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/domain/response/BookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/endpoint/LibraryEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/endpoint/LibraryEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/repository/BooksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/repository/BooksRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/services/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/controller/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/controller/BooksController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/BookRequest$BookRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/BookRequest$BookRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/BookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/BookRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/Books$BooksBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/Books$BooksBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/GetFreeBookResponse$GetFreeBookResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/GetFreeBookResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/PutBookInTheStorage$PutBookInTheStorageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/PutBookInTheStorage$PutBookInTheStorageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/PutBookInTheStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/PutBookInTheStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookLogResponse$BookLogResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookLogResponse$BookLogResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookLogResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookLogResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookResponse$BookResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookResponse$BookResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/domain/response/BookResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/endpoint/LibraryEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/endpoint/LibraryEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/repository/BooksRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/repository/BooksRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/LibraryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/Library/services/LibraryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/library_app (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +112,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;5936d0b529b19b6fdea52d6d9e29ec76&quot;
   },
@@ -123,7 +159,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
+  <component name="RunManager" selected="Spring Boot.LibraryAplications (1)">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library_app (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="AunthenticationService.AuthApplication" />
@@ -197,7 +233,7 @@
       <workItem from="1701368210436" duration="13905000" />
       <workItem from="1702054354772" duration="8754000" />
       <workItem from="1702915118097" duration="34238000" />
-      <workItem from="1704031963387" duration="4031000" />
+      <workItem from="1704031963387" duration="43249000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -290,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703619231312</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-">
+      <created>1704040687657</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704040687657</updated>
+    </task>
+    <task id="LOCAL-00015" summary="-">
+      <created>1704647446611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704647446612</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +378,23 @@
     <MESSAGE value="- Auth-service Service complete" />
     <MESSAGE value="- Gateway-service Service complete" />
     <MESSAGE value="- secur" />
-    <option name="LAST_COMMIT_MESSAGE" value="- secur" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.client.HttpClientErrorException$Unauthorized" package="org.springframework.web.client" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

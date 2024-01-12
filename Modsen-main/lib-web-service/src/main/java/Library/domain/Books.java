@@ -21,15 +21,11 @@ public class Books {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
-    private String ISBN;
-
+    private Integer isbn;
     private String name;
-
     private String genre;
     private String description;
-
-    private String Author;
+    private String author;
 
     @Override
     public boolean equals(Object o) {

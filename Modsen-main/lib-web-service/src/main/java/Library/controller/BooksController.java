@@ -32,15 +32,17 @@ import java.util.List;
 public class BooksController {
     private final LibraryService libraryService;
 
-    @Operation(
-            summary = "Get all books",
-            responses = {
-                    @ApiResponse(responseCode = "200", description = "List of books",
-                            content = @Content(schema = @Schema(implementation = BookResponse.class)))
-            }
-    )
-    @GetMapping("/getAll")
-    public ResponseEntity<List<BookResponse>> getAllBooks() {
+
+
+        @Operation(
+                summary = "Get all books",
+                responses = {
+                        @ApiResponse(responseCode = "200", description = "List of books",
+                                content = @Content(schema = @Schema(implementation = BookResponse.class)))
+                }
+        )
+        @GetMapping("/getAll")
+        public ResponseEntity<List<BookResponse>> getAllBooks () {
         return ResponseEntity.ok().body(libraryService.getAllBooks());
     }
 
@@ -66,8 +68,8 @@ public class BooksController {
             }
     )
     @GetMapping("/getISBN/{isbn}")
-    public ResponseEntity<List<BookResponse>> getBookByISBN(@PathVariable String ISBN) {
-        return ResponseEntity.ok().body(libraryService.getAllBooksByISBN(ISBN));
+    public ResponseEntity<List<BookResponse>> getBookByISBN(@PathVariable Integer isbn) {
+        return ResponseEntity.ok().body(libraryService.getAllBooksByISBN(isbn));
     }
 
 
@@ -96,7 +98,13 @@ public class BooksController {
     })
     @PostMapping("/create")
     public ResponseEntity<BookResponse> createBook(@RequestBody BookRequest body) {
-        return ResponseEntity.ok().body(libraryService.createBook(body));
+            try {
+               var response = ResponseEntity.ok().body(libraryService.createBook(body));
+               return response;
+            }catch (Throwable e){
+                e.printStackTrace();
+            }
+        return null;
     }
 
     @Operation(

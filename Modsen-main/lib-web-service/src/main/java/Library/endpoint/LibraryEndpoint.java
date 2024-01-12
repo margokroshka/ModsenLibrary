@@ -34,11 +34,13 @@ public class LibraryEndpoint {
 
     public ResponseEntity<BookLogResponse> changeBookStatus(Integer id, PutBookInTheStorage putBookInTheStorageDto) {
         return restTemplate.exchange(
-                LOCAL_LIBRARY_SERVICE_URL + "/status/" + id,
+                LOCAL_LIBRARY_SERVICE_URL + "/update/" + id,
                 HttpMethod.PUT,
                 new HttpEntity<>(putBookInTheStorageDto),
                 BookLogResponse.class
         );
     }
+
+
 
 }

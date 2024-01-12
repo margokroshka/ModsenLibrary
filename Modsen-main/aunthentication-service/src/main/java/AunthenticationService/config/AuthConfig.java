@@ -32,6 +32,8 @@ public class AuthConfig {
                         .requestMatchers(HttpMethod.POST, "/auth/authenticate").permitAll()
                         .requestMatchers(HttpMethod.POST, "/books/create").permitAll()
                         .requestMatchers(HttpMethod.GET, "/books/create").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/books/getFreeBooks").permitAll()
+                        .requestMatchers(HttpMethod.PUT, "/books/updateStatus/{id}").permitAll()
                         .requestMatchers("/",
                                 "/auth/registration",
                                 "/auth/authenticate",

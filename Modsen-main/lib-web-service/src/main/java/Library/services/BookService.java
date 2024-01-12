@@ -76,8 +76,8 @@ public class BookService implements LibraryService {
         booksRepository.deleteById(id);
     }
 
-    public List<BookResponse> getAllBooksByISBN(String isbn) {
-        return booksRepository.findBookByISBN(isbn)
+    public List<BookResponse> getAllBooksByISBN(Integer isbn) {
+        return booksRepository.findBookByIsbn(isbn)
                 .stream()
                 .map(book -> modelMapper.map(book, BookResponse.class))
                 .toList();
