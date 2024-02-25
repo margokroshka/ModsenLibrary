@@ -33,16 +33,15 @@ public class BooksController {
     private final LibraryService libraryService;
 
 
-
-        @Operation(
-                summary = "Get all books",
-                responses = {
-                        @ApiResponse(responseCode = "200", description = "List of books",
-                                content = @Content(schema = @Schema(implementation = BookResponse.class)))
-                }
-        )
-        @GetMapping("/getAll")
-        public ResponseEntity<List<BookResponse>> getAllBooks () {
+    @Operation(
+            summary = "Get all books",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "List of books",
+                            content = @Content(schema = @Schema(implementation = BookResponse.class)))
+            }
+    )
+    @GetMapping("/getAll")
+    public ResponseEntity<List<BookResponse>> getAllBooks() {
         return ResponseEntity.ok().body(libraryService.getAllBooks());
     }
 
@@ -98,12 +97,12 @@ public class BooksController {
     })
     @PostMapping("/create")
     public ResponseEntity<BookResponse> createBook(@RequestBody BookRequest body) {
-            try {
-               var response = ResponseEntity.ok().body(libraryService.createBook(body));
-               return response;
-            }catch (Throwable e){
-                e.printStackTrace();
-            }
+        try {
+            var response = ResponseEntity.ok().body(libraryService.createBook(body));
+            return response;
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
         return null;
     }
 
@@ -116,7 +115,7 @@ public class BooksController {
             }
     )
     @PutMapping("/update/{id}")
-    public ResponseEntity<BookResponse> updateBook(@RequestBody BookRequest body,  @PathVariable Integer id) throws NotFoundException {
+    public ResponseEntity<BookResponse> updateBook(@RequestBody BookRequest body, @PathVariable Integer id) throws NotFoundException {
         return ResponseEntity.ok().body(libraryService.updateBookById(id, body));
     }
 
@@ -143,7 +142,7 @@ public class BooksController {
     )
     @DeleteMapping("/delete/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public void  deleteBook(@PathVariable Integer id)  throws NotFoundException {
-       libraryService.deleteById(id);
+    public void deleteBook(@PathVariable Integer id) throws NotFoundException {
+        libraryService.deleteById(id);
     }
 }

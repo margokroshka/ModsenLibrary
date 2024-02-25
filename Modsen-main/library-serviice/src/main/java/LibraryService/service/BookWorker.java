@@ -8,7 +8,9 @@ import java.util.List;
 
 public interface BookWorker {
     void saveBook(Integer id);
-List<GetFreeBookResponse> getFreeBooks();
+
+    List<GetFreeBookResponse> getFreeBooks();
+
     BookLogResponse updateBookInTheLibrary(Integer bookId, PutBookInTheStorage putBookInTheStorageDto) throws Exception;
 
 }

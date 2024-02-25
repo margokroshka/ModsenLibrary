@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+    <list default="true" id="5aaf90b1-368b-4711-a63a-fa2c82baa374" name="Changes" comment="-final changes">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/59cbfa7d-2530-4b03-91e1-c33425e86a68/storage_v2/_src_/database/db_library.-nlaxQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/aunthentication-service/postman/auth-service.postman_collection" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/aunthentication-service/postman/microservices.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/postman/postman-collection" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/postman/MODSEN.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/repository/BookLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/repository/BookLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/service/BookWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modsen-main/library-serviice/src/main/java/LibraryService/service/BookWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryAplications (1)">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library_app (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="AunthenticationService.AuthApplication" />
@@ -197,7 +199,19 @@
       <workItem from="1701368210436" duration="13905000" />
       <workItem from="1702054354772" duration="8754000" />
       <workItem from="1702915118097" duration="34238000" />
-      <workItem from="1704031963387" duration="45153000" />
+      <workItem from="1704031963387" duration="45539000" />
+      <workItem from="1705420663913" duration="1364000" />
+      <workItem from="1706132152671" duration="7830000" />
+      <workItem from="1706626350986" duration="1676000" />
+      <workItem from="1706799230726" duration="2221000" />
+      <workItem from="1707399585747" duration="9000" />
+      <workItem from="1707403269822" duration="480000" />
+      <workItem from="1708017327703" duration="702000" />
+      <workItem from="1708200589813" duration="1261000" />
+      <workItem from="1708284890606" duration="736000" />
+      <workItem from="1708542807966" duration="2779000" />
+      <workItem from="1708791749316" duration="932000" />
+      <workItem from="1708794514786" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="FirstTry &#10;-POM&#10;-DB&#10;-application&#10;-log&#10;-domain&#10;-repository&#10;-services">
       <created>1697828912255</created>
@@ -311,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705056020133</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-final changes">
+      <created>1705058060476</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705058060476</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,16 +371,12 @@
     <MESSAGE value="- Gateway-service Service complete" />
     <MESSAGE value="- secur" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="-final changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="-final changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Modsen-main/lib-web-service/src/main/java/Library/controller/BooksController.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.web.client.HttpClientErrorException$Unauthorized" package="org.springframework.web.client" />
           <option name="timeStamp" value="9" />
